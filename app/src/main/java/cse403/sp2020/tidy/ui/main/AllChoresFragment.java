@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 import cse403.sp2020.tidy.R;
 
 public class AllChoresFragment extends Fragment {
-    private static final String TAG = "AllChoresFragment";
 
     @Nullable
     @Override

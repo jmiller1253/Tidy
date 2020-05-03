@@ -1,4 +1,4 @@
-package cse403.sp2020.tidy.ui.main;
+package cse403.sp2020.tidy.ui;
 
 import android.os.Bundle;
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        viewPager = (ViewPager) findViewById(R.id.container);
+        viewPager = (ViewPager) findViewById(R.id.view_pager);
         setupViewPager(viewPager);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
